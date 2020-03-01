@@ -1,3 +1,2 @@
 # mybatis
-mybatis作业
-1.
+1.Mybatis的动态sql就是根据条件动态的处理sql语句，来达到一次编写可以在不同的场景或条件下使用

@@ -1,6 +1,6 @@
 # mybatis
 1.  Mybatis的动态sql就是根据条件动态的处理sql语句，来达到一次编写可以在不同的场景或条件下使用。
-    Mybatis 提供了 9 种动态 SQL 标签：<if/>、<choose/>、<when/>、<otherwise/>、<trim/>、<when/>、<set/>、<foreach/>、<bind/>。
+    Mybatis 提供了 9 种动态 SQL 标签：\<if/\>、\<choose/\>、\<when/\>、\<otherwise/\>、\<trim/\>、\<when/\>、\<set/\>、\<foreach/\>、\<bind/\>。
     执行原理是从SQL参数对象中计算表达式的值,根据表达式的值动态拼接 SQL，以此来完成动态SQL的功能。
 2.  Mybatis仅支持association关联对象和collection关联集合对象的延迟加载。
     在Mybatis配置文件中，可以配置是否启用延迟加载lazyLoadingEnabled=true|false。
